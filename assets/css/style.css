@@ -1,0 +1,157 @@
+/*    @import url('https://fonts.googleapis.com/css?family=Anton|IBM+Plex+Mono');
+*/        
+        
+        
+        
+        body {
+            background-color: yellow;
+        }
+
+        .navbar-custum {
+            background-color: red;
+            background-image: none;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-family: Anton, sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Anton, sans-serif;
+            font-size: 4rem;
+            color: white;
+            text-align: center;
+
+        }
+
+        .titleBox {
+            font-family: Anton, sans-serif;
+            font-size: 3.5rem;
+            color: white;
+            text-align: center;
+            display: block;
+            background-color: black;
+            float: left;
+
+        }
+
+        p {
+            font-family: 'PT Mono', monospace;
+
+        }
+
+        .joMenu {
+            color: white;
+            background-color: red;
+            width: 100%;
+
+        }
+
+        .JoLanding {
+            Background-color: black;
+        }
+        
+        
+         #mainImage{
+            
+            width:90%;
+        }
+
+
+
+        .joBand {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .joBand img {
+
+            margin-bottom: 30px;
+            width: 360px;
+
+
+        }
+
+        .joMembers {
+            Background-color: pink;
+        }
+
+        .joDivider {
+            Background-color: red;
+        }
+
+        .joUpAndComingGigs {
+            background-color: yellow;
+        }
+
+        .joFooter {
+            padding-top:10px;
+            background-color: none;
+            height: 50px;
+            text-align:center;
+            color:red;
+        }
+
+        .vinyl img {
+            display: block;
+            border-radius: 50%;
+            border: 20px solid #17202A;
+            width: 100px;
+            height: 100px;
+            animation: rollingBall 5s 3;
+            margin: 0 auto;
+
+        }
+
+        .joGigs {
+
+            background-color: yellow;
+        }
+
+        .gigDate1 {
+            color: white;
+            background-color: black;
+            text-align: center;
+            margin-bottom: 3px;
+
+        }
+
+        .container-fluid>.navbar-collapse.my-navbar {
+            float: none !important;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+          .navbar-nav>li {
+                display: inline-block;
+            }
+        }
+
+       .navbar-nav>li {
+            text-align: center;
+            float: none !important;
+        }
+
+
+        .navbar navbar-custom {
+            background-color: red;
+        }
+        
+        .socCase{
+
+            margin: 0 auto;
+            text-align: center;
+            letter-spacing: 5px;
+            
+        }
+        
+        .artist{
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: red;
+            text-align: center;
+        }
