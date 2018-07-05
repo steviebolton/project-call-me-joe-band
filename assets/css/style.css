@@ -1,157 +1,220 @@
 /*    @import url('https://fonts.googleapis.com/css?family=Anton|IBM+Plex+Mono');
-*/        
-        
-        
-        
-        body {
-            background-color: yellow;
-        }
+*/
 
-        .navbar-custum {
-            background-color: red;
-            background-image: none;
-            background-repeat: no-repeat;
-        }
+body {
+    background-color: rgb(255, 242, 0);
 
-        h1 {
-            font-family: Anton, sans-serif;
-            font-size: 3rem;
-            color: white;
-            text-align: center;
-        }
+}
 
-        h2 {
-            font-family: Anton, sans-serif;
-            font-size: 4rem;
-            color: white;
-            text-align: center;
+a:hover {
+    color: black;
+}
 
-        }
+a:visited {
+    color: rgb(241, 0, 0);
+}
 
-        .titleBox {
-            font-family: Anton, sans-serif;
-            font-size: 3.5rem;
-            color: white;
-            text-align: center;
-            display: block;
-            background-color: black;
-            float: left;
+.navbar-custum {
+    background-color: rgb(241, 0, 0);
+    background-image: none;
+    background-repeat: no-repeat;
+}
 
-        }
+h1 {
+    font-family: Anton, sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
 
-        p {
-            font-family: 'PT Mono', monospace;
+h2 {
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
 
-        }
+h3 {
+    font-family: Anton, sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
 
-        .joMenu {
-            color: white;
-            background-color: red;
-            width: 100%;
+}
 
-        }
+h3 {
+    font-family: Anton, sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
 
-        .JoLanding {
-            Background-color: black;
-        }
-        
-        
-         #mainImage{
-            
-            width:90%;
-        }
+}
+
+p {
+    font-family: 'PT Mono', monospace;
+
+}
 
 
 
-        .joBand {
-            text-align: center;
-            margin-bottom: 0px;
-        }
 
-        .joBand img {
+.titleBox {
+    position: relative;
+    top: 10px;
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+    color: red;
+    text-align: center;
 
-            margin-bottom: 30px;
-            width: 360px;
+    width: 100%;
 
+}
 
-        }
-
-        .joMembers {
-            Background-color: pink;
-        }
-
-        .joDivider {
-            Background-color: red;
-        }
-
-        .joUpAndComingGigs {
-            background-color: yellow;
-        }
-
-        .joFooter {
-            padding-top:10px;
-            background-color: none;
-            height: 50px;
-            text-align:center;
-            color:red;
-        }
-
-        .vinyl img {
-            display: block;
-            border-radius: 50%;
-            border: 20px solid #17202A;
-            width: 100px;
-            height: 100px;
-            animation: rollingBall 5s 3;
-            margin: 0 auto;
-
-        }
-
-        .joGigs {
-
-            background-color: yellow;
-        }
-
-        .gigDate1 {
-            color: white;
-            background-color: black;
-            text-align: center;
-            margin-bottom: 3px;
-
-        }
-
-        .container-fluid>.navbar-collapse.my-navbar {
-            float: none !important;
-            text-align: center;
-        }
-
-        @media (min-width: 768px) {
-          .navbar-nav>li {
-                display: inline-block;
-            }
-        }
-
-       .navbar-nav>li {
-            text-align: center;
-            float: none !important;
-        }
+.bigBlackBox {
+    background-color: black;
+    width: !important 100%;
+}
 
 
-        .navbar navbar-custom {
-            background-color: red;
-        }
-        
-        .socCase{
 
-            margin: 0 auto;
-            text-align: center;
-            letter-spacing: 5px;
-            
-        }
-        
-        .artist{
-            font-family: Anton, sans-serif;
-            font-size: 2rem;
-            color: red;
-            text-align: center;
-        }
+.joMenu {
+    color: white;
+    background-color: rgb(241, 0, 0);
+    width: 100%;
+
+}
+
+.JoLanding {
+
+    background-color: black;
+
+}
+
+
+.joBand {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.joBand img {
+
+    margin-bottom: 30px;
+    width: 360px;
+
+
+}
+
+.joMembers {
+    Background-color: pink;
+}
+
+.joDivider {
+    Background-color: rgb(241, 0, 0);
+}
+
+.joUpAndComingGigs {
+    background-color: yellow;
+}
+
+.joFooter {
+    padding-top: 10px;
+    background-color: none;
+    height: 50px;
+    text-align: center;
+    color: rgb(241, 0, 0);
+}
+
+.vinyl img {
+    display: block;
+    border-radius: 50%;
+    border: 20px solid #17202A;
+    width: 100px;
+    height: 100px;
+    animation: rollingBall 5s 3;
+    margin: 0 auto;
+
+}
+
+
+
+.gigDate1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 3px;
+
+}
+
+.container-fluid>.navbar-collapse.my-navbar {
+    float: none !important;
+    text-align: center;
+
+}
+
+.container-fluid {
+    background: black;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li {
+        display: inline-block;
+    }
+}
+
+.navbar-nav>li {
+    text-align: center;
+    float: none !important;
+}
+
+
+
+
+.socCase {
+
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.artist {
+
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+    color: rgb(241, 0, 0);
+    text-align: center;
+
+
+}
+
+.musicalBox {
+    display: block;
+    border-radius: 10px;
+    background-color: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.vidScreen {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.imageBox img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
