@@ -1,0 +1,24 @@
+.btn {
+  width: 150px;
+  height: 75px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white; }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn {
+      background-color: lemonchiffon; } }
+  @media (min-width: 992px) {
+    .btn {
+      background-color: peachpuff; } }
+      
+      
+       @media (min-width: 360px) {
+    .btn {
+      background-color: grey; } }
+
+/*# sourceMappingURL=main.css.map */
+

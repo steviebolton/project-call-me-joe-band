@@ -1,0 +1,16 @@
+body {
+    color:grey;
+}
+
+
+$class-name: heading;
+@for $i from 1 through 4 {
+    
+    .#{$class-name}-#{$i} {
+        font-size: 1rem + $i;
+    }
+}
+
+
+
+    

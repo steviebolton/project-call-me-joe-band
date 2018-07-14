@@ -1,0 +1,47 @@
+$bgcolour: #400A14;
+$fontcolor: #F2F2f2;
+$bordercolour: #D9A79C;
+$bordersize: 12px;
+
+
+
+.container {
+    background-color: $bgcolour;
+    color: $fontcolor;
+    height: 200px;
+    width: 200px;
+    border: 2pt solid $bordercolour;
+    border-radius: 2px solid $bordercolour;
+}
+
+@mixin button($color, $size) {
+    width: $size;
+    height: $size / 2;
+    background-color: $color;
+    border-radius: 5px;
+    
+    
+    @if $color == white {
+        color: grey;
+        border: 1px solid grey;
+    }
+    
+    @else{
+    color: white;
+}
+}
+
+
+.btn-error {
+    @include button(#E84610, 200px);
+}
+
+.btn-success {
+    @include button(#BADA55, 300px);
+}
+
+.btn-plain {
+    @include button(white, 100px);
+}
+
+

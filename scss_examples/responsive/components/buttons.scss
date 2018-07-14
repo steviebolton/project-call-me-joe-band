@@ -1,0 +1,159 @@
+@mixin button($color, $size) {
+    width: $size;
+    height: $size / 2;
+    background-color: $color;
+    border-radius: 5px;
+
+
+    @if $size < 120px {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    @else {
+        font-size: $size / 10;
+        font-weight: bold;
+    }
+    @if $color==white {
+        color: grey;
+        border: 1pt solid grey;
+    }
+
+    @else {
+        color: white;
+    }
+
+}
+
+.btn {
+    @include button(red, 150px);
+    @include tablet {
+        background-color: lemonchiffon;
+
+    }
+    @include desktop {
+        background-color: peachpuff;
+    }
+}
+
+
+body {
+    background-color: #f4f141;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: rgb(241, 0, 0);
+}
+
+.navbar-custum {
+    background-color: rgb(241, 0, 0);
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Anton, sans-serif;
+    font-size: 1rem;
+
+}
+
+h2 {
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+
+}
+
+h3 {
+    font-family: Anton, sans-serif;
+    font-size: 3rem;
+
+
+}
+
+p {
+    font-family: 'PT Mono', monospace;
+
+}
+
+.joesHeader {
+    position: relative;
+    top: -20px;
+    width: 100%;
+    background-color: #EAAA28;
+
+    padding-left: important 0px;
+    padding-right: important 0px;
+
+
+}
+
+.joesHeader img {
+    mix-blend-mode: multiply;
+    background-color: yellow;
+
+    width: 100%;
+}
+
+.titleBox {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: Anton, sans-serif;
+    font-size: 4rem;
+    color: red;
+    background-color: black;
+    text-align: center;
+
+
+}
+
+.joesBand {}
+
+.joesLogo {
+    font-family: Anton, sans-serif;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: -10px;
+}
+
+.joe {
+    font-size: 5rem;
+
+}
+
+
+.events {
+    background-color: red;
+    height: 300px;
+}
+
+.joesMembers {
+    background-color: white;
+    height: 300px;
+}
+
+.joesVideos {
+    background-color: red;
+    height: 300px;
+}
+
+.joesPhotos {
+    background-color: white;
+    height: 300px;
+}
+
+.joesBooking {
+    background-color: red;
+    height: 300px;
+}
+
+.joesFooter {
+    background-color: yellow;
+    height: 300px;
+}

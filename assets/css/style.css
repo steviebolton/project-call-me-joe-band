@@ -1,220 +1,269 @@
-/*    @import url('https://fonts.googleapis.com/css?family=Anton|IBM+Plex+Mono');
-*/
+        .joe {
+            font-size: 5rem;
+            rotate: 10deg;
 
-body {
-    background-color: rgb(255, 242, 0);
+        }
 
-}
+        body {
+            background-color: rgb(255, 242, 0);
 
-a:hover {
-    color: black;
-}
+        }
 
-a:visited {
-    color: rgb(241, 0, 0);
-}
+        a:hover {
+            color: black;
+        }
 
-.navbar-custum {
-    background-color: rgb(241, 0, 0);
-    background-image: none;
-    background-repeat: no-repeat;
-}
+        a:visited {
+            color: pink;
+        }
 
-h1 {
-    font-family: Anton, sans-serif;
-    font-size: 1rem;
-    color: white;
-    text-align: center;
-}
+        
 
-h2 {
-    font-family: Anton, sans-serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-}
+        h1 {
+            font-family: Anton, sans-serif;
+            font-size: 1rem;
+            color: white;
+            text-align: center;
+        }
 
-h3 {
-    font-family: Anton, sans-serif;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+        h2 {
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
 
-}
+        h3 {
+            font-family: Anton, sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
 
-h3 {
-    font-family: Anton, sans-serif;
-    font-size: 4rem;
-    color: white;
-    text-align: center;
+        }
 
-}
+        p {
+            font-family: 'PT Mono', monospace;
 
-p {
-    font-family: 'PT Mono', monospace;
-
-}
+        }
 
 
+        .joesHeader {
+            position: relative;
+            top: -20px;
+            width: 100%;
+            background-color: yellow;
+
+        }
+
+        .titleBox {
+            position: relative;
+            top: 0px;
+            width: 100%;
+            font-family: Anton, sans-serif;
+            font-size: 4rem;
+            color: red;
+            background-color: black;
+            text-align: center;
+        }
+
+        .bigBlackBox {
+            position: relative;
+            top: 20px;
+            background-color: black;
+            height: 10px;
+            width: !important 100%;
+        }
+
+        .texrCol {
+            color: red;
+        }
+
+        .joMenu {
+            color: white;
+            background-color: rgb(241, 0, 0);
+            width: 100%;
+
+        }
+
+        .JoLanding {
+
+            background-color: black;
+
+        }
 
 
-.titleBox {
-    position: relative;
-    top: 10px;
-    font-family: Anton, sans-serif;
-    font-size: 2rem;
-    color: red;
-    text-align: center;
+        .joBand {
+            text-align: center;
+            margin-bottom: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
 
-    width: 100%;
+        }
 
-}
+        .joBand img {
 
-.bigBlackBox {
-    background-color: black;
-    width: !important 100%;
-}
+            margin-bottom: 30px;
+            width: 360px;
 
 
+        }
 
-.joMenu {
-    color: white;
-    background-color: rgb(241, 0, 0);
-    width: 100%;
+        .joMembers {
+            Background-color: pink;
+        }
 
-}
+        .joDivider {
+            Background-color: red;
+        }
 
-.JoLanding {
+        .joUpAndComingGigs {
+            background-color: yellow;
+        }
 
-    background-color: black;
+        .salesShout {
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: red;
+            text-align: center;
+            padding-left: 3px;
+            padding-right: 3px;
 
-}
+        }
 
+        .salesScreem {
+            font-size: 2rem;
+            color: black;
 
-.joBand {
-    text-align: center;
-    margin-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+        }
 
-}
-
-.joBand img {
-
-    margin-bottom: 30px;
-    width: 360px;
-
-
-}
-
-.joMembers {
-    Background-color: pink;
-}
-
-.joDivider {
-    Background-color: rgb(241, 0, 0);
-}
-
-.joUpAndComingGigs {
-    background-color: yellow;
-}
-
-.joFooter {
-    padding-top: 10px;
-    background-color: none;
-    height: 50px;
-    text-align: center;
-    color: rgb(241, 0, 0);
-}
-
-.vinyl img {
-    display: block;
-    border-radius: 50%;
-    border: 20px solid #17202A;
-    width: 100px;
-    height: 100px;
-    animation: rollingBall 5s 3;
-    margin: 0 auto;
-
-}
+        .salesBabble {
+            padding-top: 6px;
+            padding-left: 7px;
+            padding-right: 7px;
+            font-family: 'PT Mono', monospace;
+            color: black;
+            font-size: 1.rem;
+            text-align: center;
 
 
+        }
 
-.gigDate1 {
-    color: white;
-    background-color: black;
-    text-align: center;
-    margin-bottom: 3px;
+        .joFooter {
+            padding-top: 10px;
+            background-color: none;
+            height: 50px;
+            text-align: center;
+            color: rgb(241, 0, 0);
+        }
 
-}
+        .vinyl img {
+            display: block;
+            border-radius: 50%;
+            border: 20px solid #17202A;
+            width: 100px;
+            height: 100px;
+            animation: rollingBall 5s 3;
+            margin: 0 auto;
 
-.container-fluid>.navbar-collapse.my-navbar {
-    float: none !important;
-    text-align: center;
+        }
 
-}
+        .gigDate1 {
+            color: white;
+            background-color: black;
+            text-align: center;
+            margin-bottom: 3px;
+            transform: rotate 3deg;
 
-.container-fluid {
-    background: black;
-}
+        }
 
-@media (min-width: 768px) {
-    .navbar-nav>li {
-        display: inline-block;
-    }
-}
+        .container-fluid>.navbar-collapse.my-navbar {
+            float: none !important;
+            text-align: center;
 
-.navbar-nav>li {
-    text-align: center;
-    float: none !important;
-}
+        }
+
+        .container-fluid {
+            background: black;
+        }
+
+        @media (min-width: 768px) {
+            .navbar-nav>li {
+                display: inline-block;
+            }
+        }
+
+        .navbar-nav>li {
+            text-align: center;
+            float: none !important;
+        }
 
 
 
 
-.socCase {
+        .socCase {
 
-    margin: 0 auto;
-    text-align: center;
-    letter-spacing: 5px;
+            margin: 0 auto;
+            text-align: center;
+            letter-spacing: 5px;
 
-}
+        }
 
-.artist {
+        .artist {
 
-    font-family: Anton, sans-serif;
-    font-size: 2rem;
-    color: rgb(241, 0, 0);
-    text-align: center;
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: rgb(241, 0, 0);
+            text-align: center;
 
 
-}
+        }
 
-.musicalBox {
-    display: block;
-    border-radius: 10px;
-    background-color: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;
-    padding-top: 20px;
-    height: auto;
-    font-family: Anton, sans-serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-}
+        .musicalBox {
+            display: block;
+            border-radius: 10px;
+            background-color: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 100%;
+            padding-top: 20px;
+            height: auto;
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
 
-.vidScreen {
-    padding-bottom: 10px;
-    margin: 0 auto;
-    height: 100%;
-}
+        .vidScreen {
+            padding-bottom: 10px;
+            margin: 0 auto;
+            height: 100%;
+        }
 
-.imageBox img {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+        .imageBox img {
+            position: static;
+            top: -30px;
+            width: 100%;
+            display: block;
+            margin: auto 0;
 
-}
+        }
+
+
+        .joesLogo {
+            font-family: Anton, sans-serif;
+            font-size: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+            line-height: -10px;
+
+        }
+
+
+        .joesHeader img {
+            mix-blend-mode: multiply;
+            background-color: black;
+
+            width: 100%;
+        }
+

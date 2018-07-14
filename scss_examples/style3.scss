@@ -1,0 +1,27 @@
+$color-light: #fff;
+$color-dark: #bada55;
+$color-bright: #black;
+
+$font-size-small: 20px;
+
+$font-size-large: 35px;
+
+
+.btn {
+    border-radius: 4px;
+    padding: 10px 25px;
+    color: $color-light;
+    font-size: $font-size-small;
+    background-color: $color-dark;
+
+
+    &:hover {
+        background-color: darken($color-dark, 20%);
+        
+    }
+@media (min-width: 768px){
+    font-size: $font-size-large;
+    background-color: $color-bright;
+    padding: 10px 30px;
+}
+}
