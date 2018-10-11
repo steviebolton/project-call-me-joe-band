@@ -5,7 +5,7 @@ The band "Just call Call me Joe" are a group dedicated to playing for fun but ju
 Having interviewed Paul I learned that the band are deadly serious about their music. 
 The existance of the band has helped the members through good and bad times and has made them friends for life.
 But the band needed to adjust their image slightly by making the website more appealing: ie.: 
-Modern Clean Happy Fresh Professional and lastly easy to maintain.
+Modern Clean, Happy, Fresh, Professional and lastly easy to maintain.
 
 new logo design with slogan
 Easy to use with the everything on one page but also a simple navigation.
