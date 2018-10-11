@@ -7,8 +7,6 @@ The existance of the band has helped the members through good and bad times and 
 But the band needed to adjust their image slightly by making the website more appealing: ie.: 
 Modern Clean, Happy, Fresh, Professional and lastly easy to maintain.
 
-new logo design with slogan
-Easy to use with the everything on one page but also a simple navigation.
 
 # JUST CALL ME JOE 
  
@@ -16,7 +14,7 @@ Easy to use with the everything on one page but also a simple navigation.
  
 ### What is this website for?
  
-This website is mainly targeting the establishments that wish to hire them
+This website is targeted mainly towards establishments wishing to book a band.
  
 ### What does it do?
  Promotes the band communicating who they are in a split second making it quick and easy to listen and
