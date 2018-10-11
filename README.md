@@ -16,7 +16,7 @@ Easy to use with the everything on one page but also a simple navigation.
  
 ### What is this website for?
  
-This website is mainly targeting the establishments than wish to hire them
+This website is mainly targeting the establishments that wish to hire them
  
 ### What does it do?
  Promotes the band within communicating who they band are in a split second and maing it quick and easy to listen and
