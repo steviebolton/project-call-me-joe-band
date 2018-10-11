@@ -1,87 +1,57 @@
-The band/client are a group dedicated to just playing for fun but just recently they have not had as many bookings as they had hoped for. Their goal is to have at least one booking per month. For them playing means more than the money. Their current website was set up by one of the band members, a standard wordpress template.
 
-Having interviewed Paul I learned that the band are deadly serious about their music in that music is a part of their dna. Because of the band some of the members have been able to get through the bad times more easily.
+# The assignment 
+The band "Just call Call me Joe" are a group dedicated to playing for fun but just recently they have not had as many bookings as they had hoped for. Their goal was or is to have at least one booking per month. For them playing means more than the money. Their current website was set up by one of the band members, a standard wordpress template.
 
-They need something more:
-Modern clean happy fresh, retro
+Having interviewed Paul I learned that the band are deadly serious about their music. 
+The existance of the band has helped the members through good and bad times and has made them friends for life.
+But the band needed to adjust their image slightly by making the website more appealing: ie.: 
+Modern Clean Happy Fresh Professional and lastly easy to maintain.
+
 new logo design with slogan
 Easy to use with the everything on one page but also a simple navigation.
 
-# Smallroundears Website
+# JUST CALL ME JOE 
  
 ## Overview
  
 ### What is this website for?
  
-This is a website for people to learn about Hippopotami and/or then test them on their knowledge.
+This website is mainly targeting the establishments than wish to hire them
  
 ### What does it do?
- 
-This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
- 
-### How does it work
- 
-This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
-
-## Features
+ Promotes the band within communicating who they band are in a split second and maing it quick and easy to listen and
+ see how they perform and ulimately hire them for a gig.
+ Fans can also follow via social media to keep track of the band and contribute to their promotion.
  
 ### Existing Features
-- Eye catching front page
-  - Sliding picture box
-- Information page.
-  - Sidebar to navigate to different parts of the information
-- Media page with plenty of pictures and a video
-- Links page to other sites with information about Hippopotami
-- Quiz page for viewers to test their knowledge
-    - Form for viewers to input their answers or check the correct box
-    - Submit button so viewers can see how they scored on the quiz
+  - Each of the three vinyl records will play audio when clicked.
+  - Navigation scrols smoothly to each section.
+  - When clicked the telephone icon will automatically open the dialer in the users mobiel telephone.
+  - A simple email button holds a message which appears automatically in the email body.
 
 ### Features Left to Implement
-- None
+  - the record will be animated and ther will be a sliding volume button.
 
 ## Tech Used
-
-### Some the tech used includes:
-- **HTML**, **CSS** and **Javascript**
-  - Base languages used to create website
-- [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing and to build custom directives
-- [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
-- [JQuery](https://jquery.com)
-    - Use **JQuery** for boostrap and displaying modal
-- [npm](https://www.npmjs.com/)
-    - We use **npm** to install **http-server** in order to view the site
-- [Bower](https://bower.io)
-    - Using **Bower** to manage package dependencies
+ - **HTML**, **CSS** and **Javascript**
 
 ## Testing
-- Prototype code was written and tested using jasmine
-- All code used on the site has been tested to ensure everything is working as expected
-- Site viewed and tested in the following browsers:
-  - Google Chrome
-  - Opera
-  - Microsoft Edge
-  - Mozilla Firefox
+ - Code was tested using W3.org
+ - All code used on the site has been tested to ensure everything is working as expected.
+ - Site viewed and tested in the following browsers:
+ - Google Chrome
+ - Mozilla Firefox
+ - Safari
 
-## Contributing
- 
-### Getting the code up and running
-1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
-2. After you've that you'll need to make sure that you have **npm** installed
-  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
-5. Once **http-server** is installed run ```http-server -c-1```
-6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request
+## Initial idea sketches:
+https://steviebolton.github.io/call-me-joe-static-html-project/ideas/
 
-## Credits
+## Deployment:
+https://steviebolton.github.io/call-me-joe-static-html-project/
 
-### Media
-- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
-
-### Information
-- The information used to create this site was from a number of sources
-    - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-    - The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
+**Thanks**
+The photos were supplied by Fans of Call me Joe. 
+Background image was created in Photoshop by Steve Bolton
+Talong with the graphic design including the Logo and vinyl records.
+The body text was jointly written by Steve Bolton and the band.
+No template were used except for the bootstrap grid to enable responsiveness
