@@ -19,9 +19,9 @@ Easy to use with the everything on one page but also a simple navigation.
 This website is mainly targeting the establishments that wish to hire them
  
 ### What does it do?
- Promotes the band within communicating who they band are in a split second and maing it quick and easy to listen and
- see how they perform and ulimately hire them for a gig.
- Fans can also follow via social media to keep track of the band and contribute to their promotion.
+ Promotes the band communicating who they are in a split second making it quick and easy to listen and
+ see how they perform and ulimately hire them for a gig.The site will publish up and coming gigs,
+ Fans can keep track via social media and contribute to their archieves.
  
 ### Existing Features
   - Each of the three vinyl records will play audio when clicked.
